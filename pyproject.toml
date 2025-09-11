@@ -1,0 +1,11 @@
+[project]
+name = "multimodel-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "generativeai>=0.0.1",
+    "langchain-google-genai>=2.1.10",
+    "langchain-openai>=0.3.33",
+]
