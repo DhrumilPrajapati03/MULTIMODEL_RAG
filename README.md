@@ -147,55 +147,6 @@ response = rag.query(
 )
 ```
 
-### API Usage
-
-Start the FastAPI server:
-
-```bash
-uvicorn main:app --host 0.0.0.0 --port 8000
-```
-
-Make requests to the API:
-
-```bash
-curl -X POST "http://localhost:8000/query" \
-     -H "Content-Type: application/json" \
-     -d '{"question": "What does the chart on page 5 indicate?"}'
-```
-
-## 📁 Project Structure
-
-```
-MULTIMODEL_RAG/
-├── src/
-│   ├── multimodal_rag/
-│   │   ├── __init__.py
-│   │   ├── document_processor.py    # Document ingestion & processing
-│   │   ├── image_analyzer.py        # Image processing & analysis
-│   │   ├── vector_store.py          # Vector database operations
-│   │   ├── retriever.py             # Multimodal retrieval logic
-│   │   ├── generator.py             # Response generation
-│   │   └── utils.py                 # Utility functions
-│   └── api/
-│       ├── main.py                  # FastAPI application
-│       └── models.py                # Pydantic models
-├── notebooks/
-│   ├── demo.ipynb                   # Interactive demo
-│   └── experiments.ipynb            # Development experiments
-├── tests/
-│   ├── test_document_processor.py
-│   ├── test_retriever.py
-│   └── test_generator.py
-├── data/
-│   ├── sample_docs/                 # Sample documents for testing
-│   └── vector_store/                # Local vector database
-├── requirements.txt
-├── .env.example
-├── .gitignore
-├── README.md
-└── setup.py
-```
-
 ## 🎯 Use Cases
 
 - **📊 Financial Analysis**: Extract insights from reports with charts and graphs
@@ -266,6 +217,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **⭐ If you find this project useful, please consider giving it a star!**
 
 *Made with ❤️ by the open-source community*
+
 
 
 
