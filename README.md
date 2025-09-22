@@ -259,10 +259,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/DhrumilPrajapati03/MULTIMODEL_RAG/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/DhrumilPrajapati03/MULTIMODEL_RAG/discussions)
-- **Email**: [Your email address]
+- **Email**: [Your email address](prajapatidhrumil3103@gmail.com)
 
 ---
 
 **⭐ If you find this project useful, please consider giving it a star!**
 
 *Made with ❤️ by the open-source community*
+
